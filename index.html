@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(18, 18, 62);
+            height: 60px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(142, 142, 232);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 117px 0px;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .buttons{
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+        }
+        .buttons button{
+           
+            border-radius: 25px;
+            border-color: black;
+            padding: 9px 14px;
+            color: white;
+            background-color: blueviolet;
+            font-weight: bold;
+            font-size: 15px;
+            margin: 0 3px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover{
+        background-color: aliceblue;
+        color: black;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(180, 110, 246);
+            font-weight: bold;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(180, 110, 246);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .box .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 220px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">
+                Vedant's Portfolio
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                HI , My name is <span class="purple">Vedant </span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons"><button>Download CV</button></div>
+            </div>
+
+            <div class="rightSection">
+                <img src="img/web3.png" alt="No Image">
+            </div>
+
+        </section>
+        <hr style="border: 0; background: violet; height: 1px;margin: 40px 0px;">
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Experience & Certifications</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="img/HTML.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Web Developer Internshala
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium vitae sit alias id
+                        facilis. Eum amet error delectus dignissimos reiciendis sequi ab nostrum. Sit at fugit ipsum
+                        totam repellendus earum?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="img/android.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Android Developer PHN Technologies
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium vitae sit alias id
+                        facilis. Eum amet error delectus dignissimos reiciendis sequi ab nostrum. Sit at fugit ipsum
+                        totam repellendus earum?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="img/tableau2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Data Analyst Internshala & JobAaj
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium vitae sit alias id
+                        facilis. Eum amet error delectus dignissimos reiciendis sequi ab nostrum. Sit at fugit ipsum
+                        totam repellendus earum?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="img/python2.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        AI ML Developer Pantech Solutions
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium vitae sit alias id
+                        facilis. Eum amet error delectus dignissimos reiciendis sequi ab nostrum. Sit at fugit ipsum
+                        totam repellendus earum?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="img/SQL.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Database Administrator Microsoft & CMP Infotech
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium vitae sit alias id
+                        facilis. Eum amet error delectus dignissimos reiciendis sequi ab nostrum. Sit at fugit ipsum
+                        totam repellendus earum?
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Vedant Warke's Portfolio</h3>
+            </div>
+            <div class="second"></div>
+            <ul>
+                <li>github</li>
+                <li>linked in</li>
+                <li>Instagram</li>
+            </ul>
+            <div class="third">
+                <ul>
+                    <li>Projects</li>
+                    <li>Experience</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">Copyright &#169; www.vedantsportfolio.com | All Rights Reserved &#174;</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web Developer.</i>', '<i>Android Developer.</i>', '<i>Data Analyst.</i>', '<i>AI ML Developer.</i>', '<i>Database Administrator.</i>'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</body>
+
+</html>

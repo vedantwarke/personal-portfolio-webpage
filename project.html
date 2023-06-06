@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(18, 18, 62);
+            height: 60px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(142, 142, 232);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 220px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+          /* wildcard styling */
+          * {
+            box-sizing: border-box;
+        }
+          
+        /* padding for whole body */
+        body {
+            padding: 15px;
+        }
+          
+        /* styling body */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px 0;
+        }
+          
+        h1 {
+            color: green;
+        }
+          
+        /* anchor tag decoration */
+        a {
+            text-decoration: none;
+            color: #5673C8;
+        }
+          
+        a:hover {
+            color: lightblue;
+        }
+          
+        /* paragraph tag decoration */
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+      
+        }
+          
+        /* row and column decoration */
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+          
+        .row > .column {
+            padding: 6px;
+        }
+          
+        .column {
+            float: left;
+            width: 25%;
+        }
+          
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+          
+        /* content decoration */
+        .content {
+            background-color: rgb(6, 6, 59);
+            padding: 10px;
+            border: 1px solid gray;
+        }
+          
+        /* window size 850 width set */
+        @media screen and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+      
+        /* window size 400 width set */
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Vedant's Portfolio
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src=
+"img/p2.png"
+                        alt="" style="width:100%">
+                    <h3><br>
+                        <a href="#">Cipher Chat</a>
+                    </h3>
+                     
+ 
+ 
+ 
+<p><br>
+
+                        it is a  client-server based enctypted chatting application developed using python programming language.
+                    </p>
+ 
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"img/aws2.png"
+                        alt="" style="width:100%">
+                    <h3><br>
+                        <a href="#">Blood Bank Website</a>
+                    </h3>
+                     
+                     
+ 
+ 
+ 
+<p><br>
+                        it is a website used for managing bloodbanks hosted on AWS  and RDS is used for managaing data.
+ 
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"img/tb.png"
+                        alt="" style="width:100%">
+                    <h3><br>
+                        <a href="#">HR Analytics</a>
+                    </h3>
+                     
+                     
+ 
+ 
+ 
+<p><br>
+                        Data Analysis of a company's employee for HR done using Tableau desktop and hosted on public.
+                    </p>
+ 
+ 
+ 
+ 
+                </div>
+            </div>
+             
+            <div class="column">
+                <div class="content">
+                    <img src=
+"img/jj.png"
+                        alt="" style="width:100%">
+                    <h3><br>
+                        <a href="#">Pong Game</a>
+                    </h3>
+                     
+                     
+ 
+ 
+ 
+<p><br>
+                        Pong Game made using Java programming language.
+                    </p>
+ 
+ 
+ 
+ 
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Vedant Warke's Portfolio</h3>
+            </div>
+            <div class="second"></div>
+            <ul>
+                <li>github</li>
+                <li>linked in</li>
+                <li>Instagram</li>
+            </ul>
+            <div class="third">
+                <ul>
+                    <li>Projects</li>
+                    <li>Experience</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-rights">Copyright &#169; www.vedantsportfolio.com | All Rights Reserved &#174;</div>
+    </footer>
+
+</body>
+
+</html>
